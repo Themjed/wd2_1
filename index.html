@@ -1,18 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="cs">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Jan Novák</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <h1>Hello World</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio consequatur deleniti obcaecati laborum modi
-        inventore iusto sit iure qui enim, molestias labore vitae, placeat reprehenderit dicta ex, et vero? Qui?
-    </p>
-    <h2>kubik</h2>
-</body>
+  <div class="container">
+    <header class="profile">
+      <img src="images/novak.jpg" alt="profilovka" class="profilovka">
+      <div class="profil">
+        <h1>Jan Novák</h1>
+        <h2>Grafický designér & vizuální tvůrce</h2>
+        <p>Zaměřuji se na minimalistický design, práci s typografií a tvorbu vizuální identity značek.</p>
+      </div>
+    </header>
 
+    <section class="skills">
+      <h3>Dovednosti</h3>
+      <div class="skill-list">
+        <span>Adobe Illustrator</span>
+        <span>Adobe Photoshop</span>
+        <span>Adobe InDesign</span>
+        <span>HTML/CSS</span>
+      </div>
+    </section>
+
+    <section class="portfolio">
+      <h3>Portfolio</h3>
+      <div class="portfolio-items">
+        <div class="card">
+          <img src="images/kavarna.webp" alt="Logo pro kavárnu">
+          <h4>Logo pro kavárnu</h4>
+          <p>Jednoduché a moderní logo pro lokální podnik.</p>
+        </div>
+        <div class="card">
+          <img src="images/plakat.png" alt="Plakát na kulturní akci">
+          <h4>Plakát na kulturní akci</h4>
+          <p>Výrazná barevnost a typografická kompozice.</p>
+        </div>
+        <div class="card">
+          <img src="images/obaka.jpg" alt="Obálka knihy">
+          <h4>Obálka knihy</h4>
+          <p>Stylizovaná ilustrace a práce s kontrastem.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h3>Kontakt</h3>
+      <p><strong>E-mail:</strong> jan.novak@email.com</p>
+      <p><strong>Instagram:</strong> <a href="#">@novak.design</a></p>
+      <p><strong>Behance:</strong> <a href="#">behance.net/novak</a></p>
+    </section>
+  </div>
+</body>
 </html>
